@@ -1,4 +1,4 @@
-var friends = [
+var friendsList = [
     {
         name: "Beethoven",
         photo: "https://nypdecider.files.wordpress.com/2019/04/beethoven.jpg?quality=90&strip=all&w=646&h=431&crop=1",
@@ -24,5 +24,5 @@ var friends = [
     }
 ];
 
-module.exports = friends;
+module.exports = friendsList;
 
