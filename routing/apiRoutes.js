@@ -1,9 +1,9 @@
-var friends = require("./data/friends.js")
+var friends = require("../data/friends.js")
 
-module.exports = function (add) {
+module.exports = function (app) {
     // Route that shows the json of all the possible friends
     app.get("/api/friends", function (req, res) {
-        return res.json(friends);
+        res.json(friends);
     });
 
     // Route that handles the incoming survey data and the compatibility logic

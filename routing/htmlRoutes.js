@@ -4,15 +4,15 @@ var path = require("path");
 // =============================================================
 
 // Exports the routs to the server.js page
-module.exports = function(app) {
-    // Route that sends the user first to the home page
-    app.use("/", function(req, res) {
-        res.sendFile(path.join(__dirname, "./public/home.html"));
-      });
-    
-    // Route that sends the user to the survey page  
-      app.get("/survey", function(req, res) {
-        res.sendFile(path.join(__dirname, "./public/survey.html"));
-      });
+module.exports = function (app) {
+  // Route that sends the user first to the home page
+  app.get("/home", function (req, res) {
+    res.sendFile(path.join(__dirname, "../public/home.html"));
+  });
 
-}
+  // Route that sends the user to the survey page  
+  app.get("/survey", function (req, res) {
+    res.sendFile(path.join(__dirname, "../public/survey.html"));
+  });
+
+};

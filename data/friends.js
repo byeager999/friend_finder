@@ -2,7 +2,7 @@ var friends = [
     {
         name: "Beethoven",
         photo: "https://nypdecider.files.wordpress.com/2019/04/beethoven.jpg?quality=90&strip=all&w=646&h=431&crop=1",
-        scores: [2, 3, 2, 3, , 5, 1, 2, 3, 4, 5]
+        scores: [2, 3, 2, 3, 3, 5, 1, 2, 3, 4, 5]
     },
     {
         name: "Bud",
@@ -23,3 +23,6 @@ var friends = [
 
     }
 ];
+
+module.exports = friends;
+
