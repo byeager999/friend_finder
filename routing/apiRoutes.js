@@ -30,7 +30,7 @@ module.exports = function (app) {
         console.log(req.body);
         friends.push(req.body)
     });
-
+    // Clears out the user input after submission
     app.post("/api/clear", function(req, res) {
         friends.length = [];
         res.json({

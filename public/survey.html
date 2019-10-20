@@ -216,10 +216,10 @@
                     $("#q10").val(),
                 ]
             }; console.log(newFriend);
-
+            // Posts the user data
             $.post("api/friends", newFriend, function (data) {
                 
-                //Pulls the result to show the best match 
+                //Posts the result to show the best match 
                 $("#matchName").text(data.name);
                 $("#matchImg").attr("src", data.photo);
 
