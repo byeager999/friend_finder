@@ -8,7 +8,7 @@ The application is structured in the following way.  The pre-loaded friends are 
 
 Below is the link to my github repository where this app resides: https://github.com/byeager999/friend_finder
 
-The app is hosted on heroku at the following link:  
+The app is hosted on heroku at the following link:  https://young-coast-88182.herokuapp.com/
 
 The technologies that were used in this app were: node.js express javascript npm 
 
